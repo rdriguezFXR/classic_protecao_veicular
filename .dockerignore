@@ -1,0 +1,60 @@
+# Dependências
+node_modules
+npm-debug.log
+bun.lockb
+
+# Configurações npm (NÃO ignorar .npmrc - necessário para build)
+# .npmrc
+
+# Build
+dist
+.vite
+
+# Git
+.git
+.gitignore
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de documentação
+*.md
+README.md
+CHECKLIST_RAPIDO.md
+EMAIL_PREVIEW.md
+FORMULARIO_SETUP.md
+INSTRUCOES_CONFIGURACAO_CONTACTSECTION.md
+README_SISTEMA_EMAILS.md
+RESUMO_ALTERACOES.md
+RESUMO_SOLUCAO_CONTACTSECTION.md
+SETUP_FORMULARIO_CONTATO.md
+TESTE_FORMULARIO.md
+
+# Docker
+Dockerfile
+.dockerignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Testes
+coverage
+.nyc_output
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scripts Google Apps
+google-apps-script*.js
+

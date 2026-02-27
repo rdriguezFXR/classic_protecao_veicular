@@ -1,0 +1,26 @@
+@import './globals.css';
+
+@layer base {
+  .theme {
+    --animate-gradient: gradient 8s linear infinite
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html,
+  body {
+    background-color: #0d0d0d;
+    color: #fff;
+  }
+}
+
+@theme inline {
+  @keyframes gradient {
+  to {
+    background-position: var(--bg-size, 300%) 0;
+    }
+  }
+}

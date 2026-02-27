@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  bellys-institucional:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bellys-institucional
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    networks:
+      - bellys-network
+
+networks:
+  bellys-network:
+    driver: bridge
+

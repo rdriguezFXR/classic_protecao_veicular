@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20"
+      className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-32"
     >
       {/* Background: gradiente escuro + imagem de carro (placeholder) */}
       <div className="absolute inset-0 bg-[#0d0d0d]" />
@@ -34,8 +34,10 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-black/60 border border-primary/40 mb-6">
-              <span className="text-primary font-bold text-sm uppercase">Associação de Proteção Veicular</span>
+            <div className="flex justify-end md:justify-start mb-6">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-black/60 border border-primary/40">
+                <span className="text-primary font-bold text-sm uppercase">Associação de Proteção Veicular</span>
+              </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white uppercase leading-tight tracking-tight">
               Seu carro{" "}
@@ -73,7 +75,7 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            className="flex items-center justify-center ml-20 xl:ml-28"
+            className="hidden lg:flex items-center justify-center ml-20 xl:ml-28"
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}

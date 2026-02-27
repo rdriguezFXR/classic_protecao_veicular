@@ -12,15 +12,15 @@ const Footer = () => {
   return (
     <footer className="bg-[#1a1a1a] text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_50%_50%,_hsl(120_100%_50%_/_0.15),_transparent_50%)]" />
-      <div className="container mx-auto px-4 py-12 md:py-16 relative z-10">
+      <div className="container mx-auto px-2 md:px-4 py-12 md:py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Logo + descrição */}
           <div className="lg:col-span-2">
-            <div className="mb-4">
+            <div className="mb-4 flex justify-start -ml-4 md:ml-0 mt-2">
               <img
                 src="/Assets/LOGO-CAR1.png"
                 alt="Classic Proteção Veicular"
-                className="h-[200px] md:h-[200px] w-auto object-contain"
+                className="h-[120px] md:h-[180px] lg:h-[200px] w-auto object-contain"
               />
             </div>
             <p className="text-white/80 text-sm max-w-md mb-6">

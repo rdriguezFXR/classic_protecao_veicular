@@ -59,16 +59,16 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "w-full z-50 fixed top-0 left-0 right-0 mt-[24px] transition-all duration-300",
-        scrolled ? "bg-[#1a1a1a]/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+        "w-full z-50 fixed top-0 left-0 right-0 transition-all duration-300",
+        scrolled ? "bg-gray-900/80 backdrop-blur-md shadow-lg" : "bg-transparent"
       )}
     >
-      <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center hover:opacity-90 transition-opacity">
+      <div className="container mx-auto px-2 md:px-4 h-16 flex items-center justify-between">
+        <Link to="/" className="flex items-center justify-center hover:opacity-90 transition-opacity">
           <img
             src="/Assets/LOGO-CAR1.png"
             alt="Classic Proteção Veicular"
-            className="h-[140px] w-auto object-contain"
+            className="h-[80px] md:h-[120px] lg:h-[140px] w-auto object-contain mt-2"
           />
         </Link>
 
@@ -113,12 +113,11 @@ const Header = () => {
         <div className="lg:hidden flex items-center gap-2">
           <Button
             variant="ghost"
-            size="icon"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Menu"
-            className="text-white hover:bg-white/10"
+            className="text-white hover:bg-white/10 h-16 w-16 p-0"
           >
-            <Menu className="w-6 h-6" />
+            <Menu className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
           </Button>
         </div>
       </div>

@@ -26,17 +26,24 @@ const ClassicCtaSection = () => {
           >
             Faça agora sua proteção
           </motion.h2>
-          <motion.p
-            className="text-white/80 mt-4 text-lg"
+          <motion.div
+            className="mt-6"
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            Planos completos a partir de <strong className="text-primary">R$ 99,90</strong>.
-            <br />
-            Para motoristas de app (99, iFood, Uber) e todos os perfis.
-          </motion.p>
+            <p className="text-white/80 text-lg mb-2">
+              Planos completos a partir de
+            </p>
+            <div className="flex items-baseline justify-center gap-2 mb-4">
+              <span className="text-primary text-4xl md:text-5xl lg:text-6xl font-black">R$</span>
+              <span className="text-primary text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black">99,90</span>
+            </div>
+            <p className="text-white/80 text-base md:text-lg">
+              Para motoristas de app (99, iFood, Uber) e todos os perfis.
+            </p>
+          </motion.div>
           <motion.div
             className="mt-10"
             initial={{ opacity: 0, y: 15 }}

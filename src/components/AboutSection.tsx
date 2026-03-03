@@ -5,7 +5,6 @@ const ITENS = [
   "Motos",
   "Caminhonetes pesadas",
   "Caminhões pesados / Agregados",
-  "Caminhões leves / Vans / Micro-ônibus",
   "Rastreamento com Assistência 24h",
 ];
 
@@ -48,8 +47,8 @@ const AboutSection = () => {
           <div className="relative order-1 lg:order-2">
             <div className="relative aspect-[4/3] lg:aspect-auto lg:min-h-[380px] rounded-lg overflow-hidden">
               <img
-                src="/Assets/imgbaner.png"
-                alt="Proteção veicular Classic - colisão e assistência"
+                src="/Assets/HeaderImage.png"
+                alt="Proteção veicular Classic - app no celular"
                 className="w-full h-full object-cover object-center"
               />
             </div>

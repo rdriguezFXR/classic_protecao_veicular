@@ -11,7 +11,7 @@ const values = [
 export default function BrandValues() {
   return (
     <section className="bg-gradient-to-b from-[#1E082F] to-[#10061C] py-20 text-white">
-      <h2 className="text-center text-3xl font-bold mb-12">Essência B-Cosmetic</h2>
+      <h2 className="text-center text-3xl font-bold mb-12">Nossos Valores</h2>
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
         {values.map((v, i) => (
           <motion.div

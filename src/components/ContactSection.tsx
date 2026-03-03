@@ -158,7 +158,7 @@ export default function ContactSection() {
             className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed"
           >
             Estamos prontos para ouvir você. Entre em contato conosco e descubra como podemos{" "}
-            <span className="font-semibold text-black dark:text-white">impulsionar seu negócio</span> com a B-Cosmetic.
+            <span className="font-semibold text-black dark:text-white">impulsionar seu negócio</span>.
           </motion.p>
         </motion.div>
 
@@ -259,7 +259,7 @@ export default function ContactSection() {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   className="grayscale-[30%] hover:grayscale-0 transition-all duration-500"
-                  title="Localização B-Cosmetic"
+                  title="Localização Classic Proteção Veicular"
                 />
                 
                 {/* Overlay decorativo */}
@@ -489,41 +489,6 @@ export default function ContactSection() {
                 </motion.div>
               </form>
               
-              {/* Logo e Branding */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
-                viewport={{ once: true }}
-                className="mt-8 pt-8 border-t border-gray-200/50 dark:border-gray-700/50"
-              >
-                <div className="flex items-center justify-center gap-3">
-                  {/* Logo */}
-                  <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-br from-[#FFD24C]/30 to-[#FFA500]/30 dark:from-purple-400/30 dark:to-purple-500/30 blur-xl" />
-                    <img 
-                      src="https://github.com/rdriguezFXR/assets-b-cosmetic/blob/main/Assets%20B-Cosmetic/b-dourada.png?raw=true" 
-                      alt="B-Cosmetic Logo" 
-                      className="relative h-12 w-12 object-contain drop-shadow-lg"
-                    />
-                  </div>
-                  
-                  {/* Texto */}
-                  <div className="relative">
-                    <h3 className="text-2xl font-black bg-gradient-to-r from-[#FFD24C] via-[#FFA500] to-[#FFD24C] dark:from-purple-400 dark:via-purple-500 dark:to-purple-400 bg-clip-text text-transparent">
-                      B-Cosmetic
-                    </h3>
-                    <p className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wide">
-                      Beleza & Inovação
-                    </p>
-                  </div>
-                </div>
-                
-                {/* Tagline */}
-                <p className="text-center text-xs text-gray-600 dark:text-gray-400 mt-4 italic">
-                  "Transformando sonhos em realidade através da beleza"
-                </p>
-              </motion.div>
             </div>
           </motion.div>
           
@@ -613,7 +578,7 @@ export default function ContactSection() {
               className="relative bg-gradient-to-br from-gray-50 to-gray-100/50 dark:from-gray-800/50 dark:to-gray-700/30 rounded-2xl p-6 mb-8 border border-gray-200/50 dark:border-gray-700/50"
             >
               <p className="text-sm text-gray-700 dark:text-gray-200 text-center leading-relaxed">
-                <span className="block text-lg font-bold mb-3 text-black dark:text-white">B-Cosmetic</span>
+                <span className="block text-lg font-bold mb-3 text-black dark:text-white">Classic Proteção Veicular</span>
                 <span className="block mb-2">
                   <MapPin className="inline h-4 w-4 mr-2 text-[#FFD24C] dark:text-purple-400" />
                   Sol Nascente - Guarapari, ES

@@ -1,4 +1,4 @@
-import { Smartphone, User, FileCheck, CreditCard } from "lucide-react";
+import { User, FileCheck, CreditCard } from "lucide-react";
 
 export default function AppSection() {
   return (
@@ -8,39 +8,12 @@ export default function AppSection() {
           <div className="flex justify-center lg:justify-end order-2 lg:order-1">
             <div className="relative w-[280px] md:w-[320px]">
               <div className="aspect-[9/19] rounded-[2.5rem] border-[14px] border-gray-800 bg-gray-100 shadow-2xl overflow-hidden">
-                <div className="h-full flex flex-col bg-white p-4 pt-8">
-                  <p className="text-center text-gray-500 text-sm font-medium mb-6">Serviços</p>
-                  <div className="space-y-4">
-                    <p className="font-bold text-gray-800 text-sm">Proteção veicular</p>
-                    <div className="grid grid-cols-2 gap-3">
-                      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex flex-col items-center text-center gap-2">
-                        <div className="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center">
-                          <Smartphone className="w-5 h-5 text-primary" />
-                        </div>
-                        <span className="text-xs font-medium text-gray-700">Solicitar cotação</span>
-                      </div>
-                      <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100 flex flex-col items-center text-center gap-2">
-                        <div className="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center">
-                          <User className="w-5 h-5 text-primary" />
-                        </div>
-                        <span className="text-xs font-medium text-gray-700">Minha proteção</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mt-6 space-y-2">
-                    <p className="font-bold text-gray-800 text-sm">Outros serviços</p>
-                    <div className="space-y-1.5">
-                      {["Meu perfil", "Fale conosco", "Central de ajuda"].map((item, i) => (
-                        <div
-                          key={i}
-                          className="flex items-center justify-between bg-white rounded-lg px-3 py-2.5 border border-gray-100 text-xs text-gray-700"
-                        >
-                          {item}
-                          <span className="text-gray-400">›</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                <div className="h-full w-full relative">
+                  <img
+                    src="/Assets/App-image.png"
+                    alt="App Classic Proteção Veicular"
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
               </div>
             </div>

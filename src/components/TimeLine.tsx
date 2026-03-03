@@ -2,7 +2,7 @@ const timeline = [
     { year: "2015", text: "Início da jornada, com o sonho de transformar o autocuidado em estilo de vida." },
     { year: "2018", text: "Expansão da linha profissional para salões e clínicas." },
     { year: "2021", text: "Tecnologia e inovação em fórmulas exclusivas." },
-    { year: "2024", text: "B-Cosmetic: referência nacional em beleza consciente." },
+    { year: "2024", text: "Classic Proteção Veicular: referência em proteção veicular." },
   ];
   
   export default function Timeline() {

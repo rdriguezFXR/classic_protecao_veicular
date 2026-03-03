@@ -81,9 +81,9 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <img
-              src="/Assets/HeaderImage.png"
-              alt="Proteção veicular - app no celular"
-              className="w-full max-w-lg h-auto object-contain rounded-2xl"
+              src="/Assets/ImgCar.png"
+              alt="Proteção veicular - colisão e assistência"
+              className="w-full max-w-6xl xl:max-w-[1400px] 2xl:max-w-[1600px] h-auto object-contain rounded-2xl scale-125"
             />
           </motion.div>
         </div>

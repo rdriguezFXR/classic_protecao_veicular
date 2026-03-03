@@ -110,12 +110,12 @@ export default function BellysDistributorSection({
         >
           <div className="mb-4 flex items-center gap-3">
             <span className="inline-flex items-center rounded-full border px-3 py-1 text-xs font-medium tracking-wide border-[#FFD24C]/40 bg-[#FFD24C]/10 text-black dark:border-purple-400/40 dark:bg-purple-400/10 dark:text-purple-400">
-              Distribuidores B-Cosmetic
+              Parceiros Classic
             </span>
             <span className="text-xs text-gray-600 dark:text-white/60">Parcerias com propósito</span>
           </div>
           <h2 className="text-3xl md:text-4xl font-bold leading-tight text-black dark:text-white">
-            Por que ser <span className="text-[#FFD24C] dark:text-purple-400 font-bold">Distribuidor B-Cosmetic</span>?
+            Por que ser <span className="text-[#FFD24C] dark:text-purple-400 font-bold">Parceiro Classic</span>?
           </h2>
           <p className="mt-3 max-w-3xl text-gray-700 dark:text-white/80 ">
             Vantagens exclusivas, suporte real e um portfólio profissional de alto giro — para você crescer com
@@ -139,7 +139,7 @@ export default function BellysDistributorSection({
                 <iframe
                   className="h-full w-full rounded-2xl"
                   src={embed}
-                  title="B-Cosmetic — Vídeo Institucional"
+                  title="Classic Proteção Veicular — Vídeo Institucional"
                   loading="lazy"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -165,12 +165,12 @@ export default function BellysDistributorSection({
                     {/* Imagem de fundo */}
                     <img 
                       src="/leandro2.png" 
-                      alt="B-Cosmetic" 
+                      alt="Classic Proteção Veicular" 
                       className="absolute inset-0 w-full h-full object-cover rounded-2xl dark:block hidden"
                     />
                     <img 
                       src="/leandro2-temaclaro.png" 
-                      alt="B-Cosmetic" 
+                      alt="Classic Proteção Veicular" 
                       className="absolute inset-0 w-full h-full object-cover rounded-2xl dark:hidden block"
                     />
                     
@@ -194,10 +194,9 @@ export default function BellysDistributorSection({
               )}
             </div>
             <div className="p-5 bg-[#FFD24C]/70 dark:bg-purple-600/20 rounded-2xl mt-2  ">
-              <h4 className="text-base font-bold text-black dark:text-white">B-Cosmetic</h4>
+              <h4 className="text-base font-bold text-black dark:text-white">Classic Proteção Veicular</h4>
               <p className="mt-1 text-sm text-gray-700 dark:text-white/75">
-              Você que chegou até aqui e deseja ter lucro acima de 200% com a sua revenda de produtos de alta qualidade e aceitação no mercado, treinamento, suporte, marketing,
-              oportunidade em negócio real e escalável, benefícios que só a Becosmetic pode oferecer, responda o formulário abaixo que eu pessoalmente vou entrar em contato com você.
+              Você que chegou até aqui e deseja oferecer proteção veicular de qualidade, com suporte completo, marketing e benefícios exclusivos. Entre em contato conosco para saber mais sobre nossas oportunidades de parceria.
   </p>
             </div>
           </motion.div>

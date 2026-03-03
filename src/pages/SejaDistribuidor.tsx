@@ -125,9 +125,7 @@ export const SejaDistribuidor = () => {
   };
 
   // Escolhe o banner baseado no tema
-  const bannerImage = isDark 
-    ? "https://github.com/rdriguezFXR/assets-b-cosmetic/blob/main/Assets%20B-Cosmetic/banner-quero-ser-consultor-desktop-2.png?raw=true"
-    : "https://github.com/rdriguezFXR/assets-b-cosmetic/blob/main/Assets%20B-Cosmetic/banner-quero-ser-consultor-desktop-temabranco-3.png?raw=true";
+  const bannerImage = "/Assets/imgbaner.png";
 
   return (
     <div className={`min-h-screen ${isDark ? 'bg-background' : 'bg-white'}`}>
@@ -161,7 +159,7 @@ export const SejaDistribuidor = () => {
                 isDark ? 'text-white' : 'text-black'
               }`}>
                 Venha ser um Distribuidor 
-                <br/> <span className={`${isDark ? "text-purple-800" : "text-gold"}`}>B-cosmetic</span>
+                <br/> <span className={`${isDark ? "text-purple-800" : "text-gold"}`}>Classic</span>
               </h1>
 
               {/* Description */}
@@ -226,11 +224,11 @@ export const SejaDistribuidor = () => {
             <h2 className={`text-3xl md:text-4xl lg:text-5xl font-bold leading-tight ${isDark ? 'text-white' : 'text-[#B8860B]'}`}>
               Abra as portas para um{" "}
               <span className={`${isDark ? 'bg-gradient-to-r from-purple-400 to-purple-600' : 'bg-gradient-to-r from-[#FFD24C] to-[#DAA520]'} bg-clip-text text-transparent font-black`}>
-                novo ciclo na B-Cosmetic
+                novo ciclo na Classic
               </span>.
             </h2>
             <p className={`text-lg md:text-xl leading-relaxed ${isDark ? 'text-white/90' : 'text-[#B8860B]'}`}>
-              A B-Cosmetic te mostra uma realidade onde seus sonhos não têm limites, e cada dia é uma nova chance de se desenvolver, crescer e transformar a sua vida.
+              A Classic Proteção Veicular te mostra uma realidade onde seus sonhos não têm limites, e cada dia é uma nova chance de se desenvolver, crescer e transformar a sua vida.
             </p>
           </div>
         </div>
@@ -245,8 +243,8 @@ export const SejaDistribuidor = () => {
           <div className="order-1 lg:order-1">
             <div className="relative overflow-hidden rounded-xl md:rounded-2xl border border-gray-200 shadow-lg dark:border-white/10">
               <img
-                src={isDark ? "https://github.com/rdriguezFXR/assets-b-cosmetic/blob/main/Assets%20B-Cosmetic/DISTIBUIDORB-Cosmetic-temaescuro.png?raw=true" : "https://github.com/rdriguezFXR/assets-b-cosmetic/blob/main/Assets%20B-Cosmetic/DISTIBUIDORB-Cosmetic-temaclaro.png?raw=true"}
-                alt="Operação de distribuição B-Cosmetic"
+                src="/Assets/ImgCar.png"
+                alt="Operação de distribuição Classic"
                 className="w-full h-[280px] md:h-[350px] lg:h-[420px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/0 to-transparent rounded-xl md:rounded-2xl" />
@@ -296,7 +294,7 @@ export const SejaDistribuidor = () => {
                 <a href="#inicio-formulario">QUERO SER DISTRIBUIDOR</a>
               </Button>
               <Button asChild variant="outline" className="px-4 py-2.5 md:px-6 md:py-3 text-sm md:text-base font-semibold border-[#FFD24C] text-current hover:bg-[#FFD24C]/10 dark:border-purple-400 dark:text-purple-200 dark:hover:bg-purple-400/10">
-                <a href={`https://wa.me/5527998806772?text=${encodeURIComponent('Quero entender como funciona a distribuição da B-Cosmetic na minha região.')}`} target="_blank" rel="noopener noreferrer">FALAR COM ESPECIALISTA</a>
+                <a href={`https://wa.me/5521995636020?text=${encodeURIComponent('Quero entender como funciona a distribuição da Classic Proteção Veicular na minha região.')}`} target="_blank" rel="noopener noreferrer">FALAR COM ESPECIALISTA</a>
               </Button>
             </div>
 
@@ -348,8 +346,8 @@ export const SejaDistribuidor = () => {
 
       {/* Linhas */}
       {[
-        { num: "01", fase: "Anúncio de Territórios", desc: "Mapeamento e divulgação de regiões disponíveis com análise de mercado", resp: "B-Cosmetic" },
-        { num: "02", fase: "Qualificação", desc: "Avaliação de perfil, capacidade financeira e fit comercial", resp: "B-Cosmetic" },
+        { num: "01", fase: "Anúncio de Territórios", desc: "Mapeamento e divulgação de regiões disponíveis com análise de mercado", resp: "Classic" },
+        { num: "02", fase: "Qualificação", desc: "Avaliação de perfil, capacidade financeira e fit comercial", resp: "Classic" },
         { num: "03", fase: "Contratação", desc: "Assinatura de exclusividade regional e onboarding", resp: "Ambos" },
         { num: "04", fase: "Primeira Compra", desc: "Pedido inicial com condições comerciais de distribuidor", resp: "Distribuidor" },
         { num: "05", fase: "Estruturação", desc: "Montagem de equipe de distribuidores e revendedores", resp: "Distribuidor" },
@@ -377,11 +375,11 @@ export const SejaDistribuidor = () => {
 </section>
       
 
-        {/* Seção 3: Processo de Distribuição B-Cosmetic */}
+        {/* Seção 3: Processo de Distribuição Classic */}
         <section className="py-0 bg-background">
     
 
-            {/* Animação B-COSMETIC VAZADO */}
+            {/* Animação Classic */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -389,7 +387,7 @@ export const SejaDistribuidor = () => {
               className="text-center mt-16"
             >
               <div className="flex justify-center items-center gap-1 text-6xl md:text-8xl font-black">
-                  {['B', '-', 'C', 'O', 'S', 'M', 'E', 'T', 'I', 'C'].map((letter, index) => (
+                  {['C', 'O', 'S', 'M', 'E', 'T', 'I', 'C'].map((letter, index) => (
                     <motion.span
                       key={index}
                       initial={{ 
@@ -428,12 +426,12 @@ export const SejaDistribuidor = () => {
           
         </section>
 
-        {/* Formulário de Cadastro B-Cosmetic */}
+        {/* Formulário de Cadastro Classic */}
       <section id="cadastro-distribuidor" className="py-12">
         <div className="container mx-auto px-4">
           <div className="text-center mb-8">
             <h2 className={`text-2xl md:text-3xl font-bold ${isDark ? 'text-white' : 'text-black'}`}>
-              Cadastre-se para ser <span className={`${isDark ? 'text-purple-400' : 'text-[#FFD24C]'}`}>Distribuidor B‑Cosmetic</span>
+              Cadastre-se para ser <span className={`${isDark ? 'text-purple-400' : 'text-[#FFD24C]'}`}>Parceiro Classic</span>
             </h2>
             <p className={`${isDark ? 'text-white/80' : 'text-black'} mt-2 text-sm`}>
               Preencha seus dados e escolha como deseja começar. Nossa equipe fará o primeiro contato.
@@ -516,7 +514,7 @@ export const SejaDistribuidor = () => {
                   className="mt-1 w-4 h-4 cursor-pointer accent-[#FFD24C] dark:accent-purple-600" 
                 />
                 <span>
-                  Declaro que li e concordo com a política de privacidade e termos da B‑Cosmetic.
+                  Declaro que li e concordo com a política de privacidade e termos da Classic Proteção Veicular.
                 </span>
               </label>
               <div className="flex flex-col sm:flex-row gap-2">
@@ -539,7 +537,7 @@ export const SejaDistribuidor = () => {
                   )}
                 </Button>
                 <Button asChild variant="outline" className="px-5 py-2.5 text-sm font-semibold border-[#FFD24C] text-current hover:bg-[#FFD24C]/10 dark:border-purple-400 dark:text-purple-200 dark:hover:bg-purple-400/10">
-                  <a href={`https://wa.me/5527998806772?text=${encodeURIComponent('Olá! Quero ser Distribuidor B-Cosmetic. Acabei de iniciar meu cadastro no site.')}`} target="_blank" rel="noopener noreferrer">FALAR NO WHATSAPP</a>
+                  <a href={`https://wa.me/5521995636020?text=${encodeURIComponent('Olá! Quero ser Parceiro Classic. Acabei de iniciar meu cadastro no site.')}`} target="_blank" rel="noopener noreferrer">FALAR NO WHATSAPP</a>
                 </Button>
               </div>
             </div>
@@ -609,7 +607,7 @@ export const SejaDistribuidor = () => {
                 }`}
               >
                 <p className="text-lg font-medium">
-                  Obrigado por seu interesse em ser um Distribuidor B-Cosmetic!
+                  Obrigado por seu interesse em ser um Parceiro Classic!
                 </p>
                 <p className="text-base">
                   Nossa equipe comercial já recebeu seus dados e entrará em contato 
@@ -617,7 +615,7 @@ export const SejaDistribuidor = () => {
                   apresentar as condições exclusivas da sua região.
                 </p>
                 <p className="text-sm opacity-80">
-                  Enquanto isso, fique à vontade para conhecer mais sobre a B-Cosmetic.
+                  Enquanto isso, fique à vontade para conhecer mais sobre a Classic Proteção Veicular.
                 </p>
               </motion.div>
 

@@ -38,7 +38,7 @@ const ClassicCtaSection = () => {
             </p>
             <div className="flex items-baseline justify-center gap-2 mb-4">
               <span className="text-primary text-4xl md:text-5xl lg:text-6xl font-black">R$</span>
-              <span className="text-primary text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black">99,90</span>
+              <span className="text-primary text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black">59,90</span>
             </div>
             <p className="text-white/80 text-base md:text-lg">
               Para motoristas de app (99, iFood, Uber) e todos os perfis.

@@ -21,17 +21,28 @@ const Header = () => {
   ];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, scrollTo: string) => {
-    if (scrollTo === "home") {
-      e.preventDefault();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    } else {
-      e.preventDefault();
-      const element = document.getElementById(scrollTo);
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }
+    e.preventDefault();
     setIsMenuOpen(false);
+    
+    // Pequeno delay para garantir que o menu feche antes do scroll
+    setTimeout(() => {
+      if (scrollTo === "home") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        const element = document.getElementById(scrollTo);
+        if (element) {
+          // Ajusta o offset para compensar o header fixo
+          const headerOffset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+          
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }
+      }
+    }, 100);
   };
 
   useEffect(() => {
@@ -137,15 +148,14 @@ const Header = () => {
           </SheetHeader>
           <div className="flex flex-col gap-4 mt-8">
             {navigation.map((item) => (
-              <SheetClose asChild key={item.name}>
-                <Link
-                  to={item.href}
-                  onClick={(e) => handleNavClick(e, item.scrollTo)}
-                  className="block text-white/90 hover:text-primary font-medium uppercase text-sm py-2"
-                >
-                  {item.name}
-                </Link>
-              </SheetClose>
+              <Link
+                key={item.name}
+                to={item.href}
+                onClick={(e) => handleNavClick(e, item.scrollTo)}
+                className="block text-white/90 hover:text-primary font-medium uppercase text-sm py-2 transition-colors"
+              >
+                {item.name}
+              </Link>
             ))}
             <div className="pt-4 border-t border-white/10 space-y-3">
               <Button asChild className="w-full bg-primary hover:bg-primary/90 text-white font-bold rounded-lg">

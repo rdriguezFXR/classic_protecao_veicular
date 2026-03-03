@@ -1,9 +1,10 @@
 /**
  * Seção de localização com mapa.
- * Para usar seu endereço: abra o local no Google Maps → Compartilhar → Incorporar um mapa → copie o src do iframe.
+ * Endereço: SALA206/205 - ESTRADA INTENDENTE MAGALHÃES 68-2° ANDAR, Estrada Intendente Magalhães, 68 - sala 205 - Campinho, Rio de Janeiro - RJ, 21341-332
+ * Place ID: 0x9963cd608d4375:0xd0007426dfcb9314
  */
 const MAP_EMBED_SRC =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.350744440614!2d-43.1728969!3d-22.9064195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f58a6a00a9d%3A0x3f251d85272f76f7!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.350744440614!2d-43.1728969!3d-22.9064195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9963cd608d4375%3A0xd0007426dfcb9314!2sCLASSIC%20PROTE%C3%87%C3%83O%20VEICULAR%2C%20SALA206%2F205%20-%20ESTRADA%20INTENDENTE%20MAGALH%C3%83ES%2068-2%C2%B0%20ANDAR%2C%20Estrada%20Intendente%20Magalh%C3%A3es%2C%2068%20-%20sala%20205%20-%20Campinho%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021341-332!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr";
 
 export default function MapSection() {
   return (

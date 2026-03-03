@@ -16,6 +16,7 @@ const Header = () => {
     { name: "Início", href: "/#home", scrollTo: "home" },
     { name: "Benefícios", href: "/#beneficios", scrollTo: "beneficios" },
     { name: "App", href: "/#app", scrollTo: "app" },
+    { name: "Contato", href: "/#galeria", scrollTo: "galeria" },
     { name: "Localização", href: "/#localizacao", scrollTo: "localizacao" },
   ];
 

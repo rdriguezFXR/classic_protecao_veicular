@@ -16,9 +16,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Logo + descrição */}
           <div className="lg:col-span-2">
-            <div className="mb-4 flex justify-start -ml-4 md:ml-0 mt-2">
+            <div className="mb-4 flex justify-start -ml-4 md:ml-0 -mt-2">
               <img
-                src="/Assets/LOGO-CAR1.png"
+                src="/Assets/LOGO-FOOTER.png"
                 alt="Classic Proteção Veicular"
                 className="h-[120px] md:h-[180px] lg:h-[200px] w-auto object-contain"
               />

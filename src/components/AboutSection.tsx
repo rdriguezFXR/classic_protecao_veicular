@@ -1,10 +1,10 @@
 import { Check } from "lucide-react";
 
 const ITENS = [
+  "Carros de leilão",
   "Veículos de passeio",
   "Motos",
-  "Caminhonetes pesadas",
-  "Caminhões pesados / Agregados",
+  "Cobertura 100% FIPE",
   "Rastreamento com Assistência 24h",
 ];
 
@@ -19,17 +19,16 @@ const AboutSection = () => {
           {/* Lado esquerdo - texto */}
           <div className="space-y-6 order-2 lg:order-1">
             <p className="text-primary font-bold text-sm uppercase tracking-wider">
-              Não corra riscos desnecessários
+              Proteção completa para seu veículo
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase leading-tight text-[#0d0d0d]">
-              Planos que
+              Carros de leilão
               <br />
-              cabem no seu bolso
+              protegidos 100% FIPE
             </h2>
             <p className="text-[#555] text-base md:text-lg leading-relaxed max-w-xl">
-              Ter a proteção da Classic é a melhor opção para quem busca qualidade a preço justo.
-              Nossos planos são completos, com tudo o que você precisa para ficar tranquilo todos
-              os dias, onde estiver.
+              A Classic oferece proteção completa com cobertura 100% da tabela FIPE para carros de leilão e veículos de passeio. 
+              Nossos planos garantem tranquilidade e segurança, com tudo que você precisa para rodar protegido todos os dias.
             </p>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {ITENS.map((item) => (

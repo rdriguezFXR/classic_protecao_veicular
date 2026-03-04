@@ -46,7 +46,7 @@ export default function VideoTestimonialSection() {
               </div>
               
               <h2 className="text-2xl md:text-3xl lg:text-5xl font-black uppercase leading-tight mb-4 md:mb-6">
-                Cliente Satisfeito com o{" "}
+                Associado Satisfeito com o{" "}
                 <span className="text-primary">Atendimento</span>
               </h2>
               
@@ -71,7 +71,7 @@ export default function VideoTestimonialSection() {
                 </ul>
                 
                 <p className="font-semibold text-white text-base md:text-lg">
-                  Veja no vídeo <span className="lg:hidden">abaixo</span><span className="hidden lg:inline">ao lado</span> como nossos clientes avaliam o atendimento da Classic Proteção Veicular.
+                  Veja no vídeo <span className="lg:hidden">abaixo</span><span className="hidden lg:inline">ao lado</span> como nossos associados avaliam o atendimento da Classic Proteção Veicular.
                 </p>
               </div>
             </div>

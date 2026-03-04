@@ -10,7 +10,7 @@ import { MessageCircle } from "lucide-react";
 
 const CONSULTORAS = [
   { id: 6, nome: "Fabiola Christine", imagem: "/Assets/consultora - Fabiola Christine.png", cargo: "Consultora", contato: "5521991842968" },
-  { id: 7, nome: "Cristiane Carvalho", imagem: "/Assets/Cristiane Carvalho- consultora.png", cargo: "Consultora", contato: "5521999999999" },
+  { id: 7, nome: "Cristiane Carvalho", imagem: "/Assets/Cristiane Carvalho- consultora.png", cargo: "Consultora", contato: "5521994483228" },
   { id: 8, nome: "Débora Regina", imagem: "/Assets/Financeiro - DEBORA REGINA .png", cargo: "Financeiro", contato: "5521992749337" },
   { id: 9, nome: "Nathalia Penna", imagem: "/Assets/Gestora administrativa - Nathalia Penna .png", cargo: "Gestora Administrativa", contato: "5521978953704" },
   { id: 10, nome: "Jéssica Helena", imagem: "/Assets/Marketing cadastro - Jéssica Helena.png", cargo: "Marketing Cadastro", contato: "5521992722117" },

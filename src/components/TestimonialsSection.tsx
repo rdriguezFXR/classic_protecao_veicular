@@ -47,13 +47,13 @@ export default function TestimonialsSection() {
           className="text-center mb-12"
         >
           <p className="text-primary font-bold text-sm uppercase tracking-wider mb-2">
-            O que nossos clientes dizem
+            O que nossos associados dizem
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black uppercase leading-tight text-[#0d0d0d] mb-4">
             Depoimentos
           </h2>
           <p className="text-[#555] text-base md:text-lg max-w-2xl mx-auto">
-            Veja o que nossos clientes falam sobre a Classic Proteção Veicular
+            Veja o que nossos associados falam sobre a Classic Proteção Veicular
           </p>
         </motion.div>
 

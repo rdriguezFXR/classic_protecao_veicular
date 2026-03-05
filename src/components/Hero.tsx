@@ -34,7 +34,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <div className="flex justify-end md:justify-start mb-6">
+            <div className="flex justify-start mb-6 mt-4">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-black/60 border border-primary/40">
                 <span className="text-primary font-bold text-sm uppercase">Associação de Proteção Veicular</span>
               </div>
